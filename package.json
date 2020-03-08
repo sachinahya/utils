@@ -1,0 +1,36 @@
+{
+  "name": "@sachinahya/utils",
+  "version": "0.1.4",
+  "description": "A set of useful utility functions.",
+  "author": "Sachin Ahya",
+  "license": "MIT",
+  "homepage": "https://github.com/sachinahya/utils",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/!(*.test).*"
+  ],
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@sachinahya/eslint-config-myconfig": "^0.2.1",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.0",
+    "@types/react": "^16.9.23",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jsdoc": "^22.0.0",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "jest": "^25.1.0",
+    "jest-watch-typeahead": "^0.4.2",
+    "react": "^16.13.0",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0"
+  }
+}
